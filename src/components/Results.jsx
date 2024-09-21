@@ -1,8 +1,12 @@
 
 
-function Results() {
+function Results({input}) {
   return (
-    <div>Results</div>
+    <div>
+      Results
+      {console.log(input)}
+    </div>
+    
   )
 }
 
